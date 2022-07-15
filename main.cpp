@@ -60,7 +60,7 @@ class Registration
 			
 			for(int a = 0; a < 6; a++)
 			{
-				cout << (a+1) << ". flight to " << country[a] << endl; // to display the country one by one
+				cout << "\t" << (a+1) << ". flight to " << country[a] << endl; // to display the country one by one
 			}
 			
 			cout << "\n\t Welcome to the airlines!" << endl;
@@ -74,13 +74,13 @@ class Registration
 					cout << "\n\t Following are the flights\n" << endl;
 					
 					cout << "\n\t 1. AER - 498" << endl;
-					cout << "\n\t\t 08-01-2022 8:00AM 10hrs Rp4.000";
+					cout << "\n\t 08-01-2022 8:00AM 10hrs Rp4.000" << endl;
 					
 					cout << "\n\t 2. AER - 576" << endl;
-					cout << "\n\t\t 09-01-2022 5:00AM 12hrs Rp3.500";
+					cout << "\n\t 09-01-2022 5:00AM 12hrs Rp3.500" << endl;
 					
 					cout << "\n\t 3. AER - 715" << endl;
-					cout << "\n\t\t 11-01-2022 10:00AM 11hrs Rp4.200";
+					cout << "\n\t 11-01-2022 10:00AM 11hrs Rp4.200" << endl;
 					
 					cout << "\nSelect the flight: \n";
 					cin >> choice1;
@@ -108,7 +108,7 @@ class Registration
 						cout << "INVALID INPUT. Shifting to the MAIN MENU" << endl;
 						flights();
 					}
-					cout << "\nPress any key to go back to MAIN MENU: " << endl;
+					cout << "\nPress 1 to go back to MAIN MENU: " << endl;
 					cin >> back;
 					
 					if(back == 1)
@@ -126,13 +126,13 @@ class Registration
 					cout << "\n\t Following are the flights\n" << endl;
 					
 					cout << "\n\t 1. CAN - 278" << endl;
-					cout << "\n\t\t 7-01-2022 3:00PM 13hrs Rp5.000";
+					cout << "\n\t 7-01-2022 3:00PM 13hrs Rp5.000" << endl;
 					
 					cout << "\n\t 2. CAN - 512" << endl;
-					cout << "\n\t\t 8-01-2022 5:00PM 14hrs Rp4.500";
+					cout << "\n\t 8-01-2022 5:00PM 14hrs Rp4.500" << endl;
 					
 					cout << "\n\t 3. CAN - 793" << endl;
-					cout << "\n\t\t 9-01-2022 8:00AM 11hrs Rp5.200";
+					cout << "\n\t 9-01-2022 8:00AM 11hrs Rp5.200" << endl;
 					
 					cout << "\nSelect the flight: \n";
 					cin >> choice1;
@@ -178,13 +178,13 @@ class Registration
 					cout << "\n\t Following are the flights\n" << endl;
 					
 					cout << "\n\t 1. GBR - 175" << endl;
-					cout << "\n\t\t 10-01-2022 7:00PM 9hrs Rp6.000";
+					cout << "\n\t 10-01-2022 7:00PM 9hrs Rp6.000" <<endl;
 					
 					cout << "\n\t 2. GBR - 771" << endl;
-					cout << "\n\t\t 10-01-2022 4:00PM 10hrs Rp5.500";
+					cout << "\n\t 10-01-2022 4:00PM 10hrs Rp5.500" << endl;
 					
 					cout << "\n\t 3. GBR - 254" << endl;
-					cout << "\n\t\t 11-01-2022 7:00AM 9hrs Rp5.700";
+					cout << "\n\t 11-01-2022 7:00AM 9hrs Rp5.700" << endl;
 					
 					cout << "\nSelect the flight: \n";
 					cin >> choice1;
@@ -230,13 +230,13 @@ class Registration
 					cout << "\n\t Following are the flights\n" << endl;
 					
 					cout << "\n\t 1. AUS - 521" << endl;
-					cout << "\n\t\t 9-01-2022 8:00AM 5hrs Rp3.000";
+					cout << "\n\t 9-01-2022 8:00AM 5hrs Rp3.000" << endl;
 					
 					cout << "\n\t 2. AUS - 385" << endl;
-					cout << "\n\t\t 9-01-2022 3:00PM 4hrs Rp4.000";
+					cout << "\n\t 9-01-2022 3:00PM 4hrs Rp4.000" << endl;
 					
 					cout << "\n\t 3. AUS - 197" << endl;
-					cout << "\n\t\t 10-01-2022 5:00PM 5hrs Rp4.000";
+					cout << "\n\t 10-01-2022 5:00PM 5hrs Rp4.000" << endl;
 					
 					cout << "\nSelect the flight: \n";
 					cin >> choice1;
@@ -282,13 +282,13 @@ class Registration
 					cout << "\n\t Following are the flights\n" << endl;
 					
 					cout << "\n\t 1. NZL - 376" << endl;
-					cout << "\n\t\t 6-01-2022 10:00AM 3hrs Rp4.000";
+					cout << "\n\t 6-01-2022 10:00AM 3hrs Rp4.000" << endl;
 					
 					cout << "\n\t 2. NZL - 216" << endl;
-					cout << "\n\t\t 6-01-2022 2:00PM 4hrs Rp3.500";
+					cout << "\n\t 6-01-2022 2:00PM 4hrs Rp3.500" << endl;
 					
 					cout << "\n\t 3. NZL - 467" << endl;
-					cout << "\n\t\t 7-01-2022 5:00AM 3hrs Rp4.200";
+					cout << "\n\t 7-01-2022 5:00AM 3hrs Rp4.200" << endl;
 					
 					cout << "\nSelect the flight: \n";
 					cin >> choice1;
@@ -334,13 +334,13 @@ class Registration
 					cout << "\n\t Following are the flights\n" << endl;
 					
 					cout << "\n\t 1. JPN - 512" << endl;
-					cout << "\n\t\t 5-01-2022 3:00PM 4hrs Rp3.000";
+					cout << "\n\t 5-01-2022 3:00PM 4hrs Rp3.000" << endl;
 					
 					cout << "\n\t 2. JPN - 234" << endl;
-					cout << "\n\t\t 6-01-2022 8:00AM 4hrs Rp3.500";
+					cout << "\n\t 6-01-2022 8:00AM 4hrs Rp3.500" << endl;
 					
 					cout << "\n\t 3. JPN - 167" << endl;
-					cout << "\n\t\t 6-01-2022 2:00PM 4hrs Rp3.000";
+					cout << "\n\t 6-01-2022 2:00PM 4hrs Rp3.000" << endl;
 					
 					cout << "\nSelect the flight: \n";
 					cin >> choice1;
